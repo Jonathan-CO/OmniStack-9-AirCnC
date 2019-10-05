@@ -1,10 +1,21 @@
 import React from 'react';
-
 import './App.css';
 
+import logo from './assets/logo.svg';
+import Routes from './routes';
+
 function App() {
+
+
+
   return (
-    <h1>Hello World! That's great!</h1>
+    <div className="container">
+      <img src={logo} alt="AirCnC"/>
+      <div className="content">
+        <Routes />
+        
+      </div>
+    </div>
   );
 }
 
