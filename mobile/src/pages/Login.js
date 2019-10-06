@@ -15,8 +15,8 @@ export default function Login({navigation}){
                 navigation.navigate('List');
             }
         })
-        //AsyncStorage.removeItem('user');
-        //navigation.navigate('Login');
+        AsyncStorage.removeItem('user');
+        navigation.navigate('Login');
     }, [])
     async function handleSubmit(){
         //email, techs
