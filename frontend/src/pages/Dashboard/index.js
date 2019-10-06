@@ -4,7 +4,6 @@ import api from '../../services/api';
 import socketio from 'socket.io-client';
 
 import './styles.css';
-// import { request } from 'https';
 
 export default function Dashboard() {
     const [spots, setSpots] = useState([]);
