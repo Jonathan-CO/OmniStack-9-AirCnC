@@ -9,3 +9,7 @@
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+steps
+/bin/db.js
+backend/src/config.js
