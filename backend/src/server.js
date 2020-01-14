@@ -12,9 +12,9 @@ const app=express();
 const server = http.Server(app);
 const io = socketio(server);
 
+const config = require('./src/config')
 
-
-mongoose.connect('mongodb+srv://omnistack-9:omnistack-9@omnistack-9-sgqrz.mongodb.net/semana09?retryWrites=true&w=majority', {
+mongoose.connect(config.connectionString, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
