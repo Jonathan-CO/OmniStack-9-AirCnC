@@ -12,7 +12,7 @@ const app=express();
 const server = http.Server(app);
 const io = socketio(server);
 
-const config = require('./config')
+const config = require('./config/config')
 
 mongoose.connect(config.connectionString, {
     useNewUrlParser: true,
