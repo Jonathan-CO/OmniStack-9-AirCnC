@@ -10,6 +10,6 @@
 !.vscode/extensions.json 
 .history
 
+*/src/config.js
 steps
 /bin/db.js
-backend/src/config.js
